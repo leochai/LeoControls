@@ -1,0 +1,15 @@
+D:\老化台\management\LeoControls\LeoControls\bin\Debug\LeoControls.dll
+D:\老化台\management\LeoControls\LeoControls\bin\Debug\LeoControls.pdb
+D:\老化台\management\LeoControls\LeoControls\bin\Debug\LeoControls.xml
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\ResolveAssemblyReference.cache
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.FourShow.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.Resources.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.OneCell.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.FourCell.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.OneShow.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.SwitchLight.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.TwoCell.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.vbproj.GenerateResource.Cache
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.dll
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.xml
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.pdb
