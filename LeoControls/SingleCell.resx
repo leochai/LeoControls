@@ -117,41 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="器件1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\器件.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="绿灯1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\绿灯.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="二位器件左" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\二位器件左.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="红灯1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\红灯.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="绿灯" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\绿灯.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="一位器件" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\一位器件.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="二位器件中" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\二位器件中.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="红灯" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\红灯.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="器件" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\器件.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="二位器件右" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\二位器件右.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="独立器件右" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\独立器件右.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="独立器件左" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\独立器件左.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picL.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
   </data>
 </root>

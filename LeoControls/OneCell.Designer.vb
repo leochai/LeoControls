@@ -22,28 +22,30 @@ Partial Class OneCell
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtNum = New System.Windows.Forms.TextBox
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox
-        Me.Label1 = New System.Windows.Forms.Label
+        Me.txtNum = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtNum
         '
         Me.txtNum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtNum.Font = New System.Drawing.Font("SimSun", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.txtNum.Location = New System.Drawing.Point(10, 106)
+        Me.txtNum.Font = New System.Drawing.Font("宋体", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.txtNum.Location = New System.Drawing.Point(18, 186)
+        Me.txtNum.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
         Me.txtNum.Name = "txtNum"
-        Me.txtNum.Size = New System.Drawing.Size(83, 23)
+        Me.txtNum.Size = New System.Drawing.Size(151, 35)
         Me.txtNum.TabIndex = 1
         Me.txtNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.LeoControls.My.Resources.Resources.一位器件
-        Me.PictureBox1.Location = New System.Drawing.Point(9, 7)
+        Me.PictureBox1.Location = New System.Drawing.Point(17, 12)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(84, 74)
+        Me.PictureBox1.Size = New System.Drawing.Size(154, 130)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -51,22 +53,24 @@ Partial Class OneCell
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(45, 89)
+        Me.Label1.Location = New System.Drawing.Point(83, 156)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(11, 12)
+        Me.Label1.Size = New System.Drawing.Size(21, 21)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "1"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'OneCell
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 21.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtNum)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
         Me.Name = "OneCell"
-        Me.Size = New System.Drawing.Size(100, 130)
+        Me.Size = New System.Drawing.Size(183, 228)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

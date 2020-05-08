@@ -123,6 +123,26 @@ Namespace My.Resources
         '''<summary>
         '''  查找 System.Drawing.Bitmap 类型的本地化资源。
         '''</summary>
+        Friend ReadOnly Property 独立器件右() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("独立器件右", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
+        '''</summary>
+        Friend ReadOnly Property 独立器件左() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("独立器件左", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
+        '''</summary>
         Friend ReadOnly Property 红灯() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("红灯", resourceCulture)

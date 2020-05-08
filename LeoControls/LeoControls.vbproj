@@ -11,7 +11,7 @@
     <AssemblyName>LeoControls</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
     <OptionStrict>Off</OptionStrict>
@@ -80,6 +80,12 @@
     <Compile Include="FourShow.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="mainShow.Designer.vb">
+      <DependentUpon>mainShow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mainShow.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
@@ -107,6 +113,12 @@
     <Compile Include="OneShow.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="SingleCell.Designer.vb">
+      <DependentUpon>SingleCell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SingleCell.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="SwitchLight.vb">
       <SubType>UserControl</SubType>
     </Compile>
@@ -131,6 +143,9 @@
       <DependentUpon>FourShow.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="mainShow.resx">
+      <DependentUpon>mainShow.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
@@ -148,6 +163,9 @@
     <EmbeddedResource Include="OneShow.resx">
       <DependentUpon>OneShow.vb</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleCell.resx">
+      <DependentUpon>SingleCell.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SwitchLight.resx">
       <DependentUpon>SwitchLight.vb</DependentUpon>
@@ -192,6 +210,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\二位器件左.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\独立器件右.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\独立器件左.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

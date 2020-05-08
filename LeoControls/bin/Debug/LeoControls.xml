@@ -6,18 +6,80 @@ LeoControls
 </name>
 </assembly>
 <members>
+<member name="T:LeoControls.My.Resources.Resources">
+<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member>
 <member name="P:LeoControls.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
+<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
 </summary>
-</member><member name="P:LeoControls.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
+</member>
+<member name="P:LeoControls.My.Resources.Resources.Culture">
+<summary>
+  重写当前线程的 CurrentUICulture 属性
+  重写当前线程的 CurrentUICulture 属性。
 </summary>
-</member><member name="T:LeoControls.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
+</member>
+<member name="P:LeoControls.My.Resources.Resources.一位器件">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.二位器件中">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.二位器件右">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.二位器件左">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.器件">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.器件1">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.独立器件右">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.独立器件左">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.红灯">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.红灯1">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.绿灯">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:LeoControls.My.Resources.Resources.绿灯1">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
 </summary>
 </member>
 </members>

@@ -48,4 +48,10 @@
             e.Handled = True
         End If
     End Sub
+
+    Public Sub SetTrue()
+        isUsed = True
+        PictureBox1.BackColor = Color.FromArgb(192, 255, 192)
+        txtNum.Enabled = True
+    End Sub
 End Class
