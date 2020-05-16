@@ -7,22 +7,36 @@
     End Sub
 
 
-    Public Sub SetResult(ByVal unit As Integer, ByVal type As Byte, ByVal volt As Byte,
+    Public Sub SetResult(ByVal unit As Integer, ByVal type As Byte, ByRef isrc As Boolean, ByVal volt As Byte,
                          ByVal status As Byte, ByVal no As String)
         lblUnit.Text = "单元" & unit
         lblNo.Text = no
-        Select Case volt
-            Case 0
-                lblVolt.Text = "21V"
-            Case 1
-                lblVolt.Text = "25V"
-            Case 2
-                lblVolt.Text = "28V"
-            Case 3
-                lblVolt.Text = "16V"
-            Case 4
-                lblVolt.Text = "5.5V"
-        End Select
+        If isrc Then
+            Label1.Text = "额定电流"
+            Select Case volt
+                Case 1
+                    lblVolt.Text = "10mA"
+                Case 2
+                    lblVolt.Text = "20mA"
+                Case 3
+                    lblVolt.Text = "30mA"
+            End Select
+        Else
+            Label1.Text = "额定电压"
+            Select Case volt
+                Case 0
+                    lblVolt.Text = "21V"
+                Case 1
+                    lblVolt.Text = "25V"
+                Case 2
+                    lblVolt.Text = "28V"
+                Case 3
+                    lblVolt.Text = "16V"
+                Case 4
+                    lblVolt.Text = "5.5V"
+            End Select
+        End If
+
         Select Case status
             Case &H0
                 lblStatus.Text = "试验进行中"
