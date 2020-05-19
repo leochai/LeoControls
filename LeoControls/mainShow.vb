@@ -7,8 +7,10 @@
     End Sub
 
 
+
     Public Sub SetResult(ByVal unit As Integer, ByVal type As Byte, ByVal isrc As Boolean,
                          ByVal volt As Byte, ByVal status As Byte, ByVal no As String)
+
         lblUnit.Text = "单元" & unit
         lblNo.Text = no
         If isrc Then
@@ -36,18 +38,7 @@
                     lblVolt.Text = "5.5V"
             End Select
         End If
-        Select Case volt
-            Case 0
-                lblVolt.Text = "21V"
-            Case 1
-                lblVolt.Text = "25V"
-            Case 2
-                lblVolt.Text = "28V"
-            Case 3
-                lblVolt.Text = "16V"
-            Case 4
-                lblVolt.Text = "5.5V"
-        End Select
+
         Select Case status
             Case &H0
                 lblStatus.Text = "试验进行中"
