@@ -7,10 +7,35 @@
     End Sub
 
 
-    Public Sub SetResult(ByVal unit As Integer, ByVal type As Byte, ByVal volt As Byte,
-                         ByVal status As Byte, ByVal no As String)
+    Public Sub SetResult(ByVal unit As Integer, ByVal type As Byte, ByVal isrc As Boolean,
+                         ByVal volt As Byte, ByVal status As Byte, ByVal no As String)
         lblUnit.Text = "单元" & unit
         lblNo.Text = no
+        If isrc Then
+            Label1.Text = "额定电流"
+            Select Case volt
+                Case 1
+                    lblVolt.Text = "10mA"
+                Case 2
+                    lblVolt.Text = "20mA"
+                Case 3
+                    lblVolt.Text = "30mA"
+            End Select
+        Else
+            Label1.Text = "额定电压"
+            Select Case volt
+                Case 0
+                    lblVolt.Text = "21V"
+                Case 1
+                    lblVolt.Text = "25V"
+                Case 2
+                    lblVolt.Text = "28V"
+                Case 3
+                    lblVolt.Text = "16V"
+                Case 4
+                    lblVolt.Text = "5.5V"
+            End Select
+        End If
         Select Case volt
             Case 0
                 lblVolt.Text = "21V"
@@ -46,9 +71,4 @@
         End Select
     End Sub
 
-    Private Sub lblStatus_Click(sender As Object, e As EventArgs) Handles lblStatus.Click
-        If lblStatus.Text = "340暂停，点击继续" Then
-
-        End If
-    End Sub
 End Class

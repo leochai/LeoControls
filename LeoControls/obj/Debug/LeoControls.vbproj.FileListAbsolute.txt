@@ -1,7 +1,6 @@
 D:\老化台\management\LeoControls\LeoControls\bin\Debug\LeoControls.dll
 D:\老化台\management\LeoControls\LeoControls\bin\Debug\LeoControls.pdb
 D:\老化台\management\LeoControls\LeoControls\bin\Debug\LeoControls.xml
-D:\老化台\management\LeoControls\LeoControls\obj\Debug\ResolveAssemblyReference.cache
 D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.FourShow.resources
 D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.Resources.resources
 D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.OneCell.resources
@@ -48,3 +47,7 @@ F:\management\LeoControls\LeoControls\obj\Debug\LeoControls.dll
 F:\management\LeoControls\LeoControls\obj\Debug\LeoControls.xml
 F:\management\LeoControls\LeoControls\obj\Debug\LeoControls.pdb
 D:\management\LeoControls\LeoControls\obj\Debug\LeoControls.SingleCell.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.vbprojAssemblyReference.cache
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.mainShow.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.SingleCell.resources
+D:\老化台\management\LeoControls\LeoControls\obj\Debug\LeoControls.vbproj.CoreCompileInputs.cache
